@@ -1,105 +1,93 @@
 import { StyleSheet } from "react-native";
 
-
 export default styles = StyleSheet.create({
 
-    container:{
-        backgroundColor: '#967ADC', 
-        flex: 1, 
-        padding: 24,
+    container: {
+      backgroundColor: '#967ADC', 
+      flex: 1,
     },
-
-    header:{
-        alignItems: 'center',
-        marginTop: 10,
-        
+    title: {
+      color: 'white',
+      fontSize: 24,
+      textAlign: 'center',
+      marginTop: 60
     },
-
-    title:{
-        fontSize: 20,
-        color: '#fff'
+    subTitle: {
+      color: 'white',
+      fontSize: 16,
+      textAlign: 'center'
     },
-
-    explication:{
-        color: '#fff'
+    section: {
+      flexDirection: 'row',
+      justifyContent: 'center',
+      width: '100%',
+      height: '20%'
     },
-
-    information:{
-        flexDirection: 'row',
-        marginTop: 80,
-        justifyContent: 'space-between',
-        
-
+    sectionButton: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: '100%',
+      height: '20%',
     },
-
-    informationText:{
-        color: '#fff',
-
+    form: {
+      width: '50%',
+      justifyContent: "center",
+      alignItems: "center"
     },
-
-    Inputs:{
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        height: 50,
-
+    input: {
+      backgroundColor: 'white',
+      color: '#967ADC',
+      textAlign: 'center',
+      width: '80%',
+      height: '25%',
+      borderRadius: 5,
+      fontSize: 24
     },
-
-    textInput:{
-        backgroundColor: '#fff',
-        borderRadius: 5,
-        width: '45%',
-        color: '#967ADC',
-        fontSize: 20,
-
+    text: {
+      color: 'white',
+      fontSize: 16,
+      marginRight: 80
     },
-
-    button:{
-        height: 56,
-        backgroundColor: '#fff',
-        borderRadius: 5,
-        justifyContent:'center',
-        alignItems: 'center',
-        marginTop: '25%',
-     
+    button: {
+      height: '40%',
+      width: '90%',
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'white',
+      borderRadius: 5
     },
-    
-    textButton:{
-        color:'#967ADC',
-        fontSize:25,
+    textButton: {
+      color: '#967ADC',
+      fontSize: 24,
+      justifyContent: 'center',
+      alignItems: 'center'
     },
-
     assection: {
-        width: '100%',
-        height: '40%',
-        backgroundColor: '#fff',
-        justifyContent: 'center',
-        alignItems: 'center',
-        padding: '10',
-        marginTop: 25,
-  
-      },
+      width: '100%',
+      height: '35%',
+      backgroundColor: 'white',
+      justifyContent: 'center',
+      alignItems: 'center',
+      padding: '10'
 
-      textIndex: {
-        color: '#967ADC',
-        fontSize: 14,
-      },
+    },
+    textResultado: {
+      color: '#967ADC',
+      textAlign: 'center',
+      justifyContent: 'center',
+      fontSize: 24,
+      fontWeight: "bold"
+    },
+    textIndex: {
+      color: '#967ADC',
+      fontSize: 14,
+    },
+    textUNIPAR: {
+      color: 'white',
+      textAlign: 'center',
+      fontSize: 24,
+      justifyContent: 'center',
+      fontWeight: "bold"
+    }
 
-      textResultado: {
-        color: '#967ADC',
-        textAlign: 'center',
-        justifyContent: 'center',
-        fontSize: 24,
-        fontWeight: "bold"
-      },
-
-      textUNIPAR: {
-        color: 'white',
-        textAlign: 'center',
-        fontSize: 24, 
-        fontWeight: "bold",
-        marginTop: 35
-      }
-
-      
-
-})
+  })
